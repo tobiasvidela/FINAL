@@ -1,7 +1,7 @@
-# Sistema de Gestión de Restaurante
+# Sistema de Gestión de Pedidos
 
 ## Descripción
-Este proyecto implementa un sistema de gestión integral para restaurantes, que permite administrar pedidos, clientes, productos y personal administrativo. El sistema está construido con una arquitectura moderna de microservicios, separando el frontend del backend para mayor flexibilidad y escalabilidad.
+Este proyecto implementa un sistema de gestión integral para revendedores, que permite administrar pedidos, clientes, y productos. El sistema está construido con una arquitectura moderna de microservicios, separando el frontend del backend para mayor flexibilidad y escalabilidad.
 
 ## Estructura del Proyecto
 ```
@@ -44,7 +44,6 @@ proyecto/
 - Gestión de clientes
 - Gestión de pedidos
 - Gestión de productos
-- Gestión de administradores
 - Interfaz web intuitiva
 - API RESTful
 
@@ -73,7 +72,7 @@ proyecto/
 ### Requisitos Previos
 - Docker y Docker Compose
 - Python 3.8+
-- Node.js (para desarrollo frontend)
+- Node.js
 
 ### Instalación y Ejecución
 1. Clonar el repositorio:
@@ -93,7 +92,7 @@ docker-compose up -d
 - API Documentation: http://localhost:8000/docs
 
 ## Documentación
-La documentación detallada de la API está disponible en la ruta `/docs` del servidor backend (Swagger UI).
+La documentación detallada de la API está disponible en la ruta `/docs` del servidor backend.
 
 ## Contribución
 Las contribuciones son bienvenidas. Por favor, asegúrate de:
